@@ -1,0 +1,7 @@
+click derecho en carpeta de git, "git bash here"
+git lfs install //lfs necesita estar instalado en lapc
+git lfs track "*.data.br"  //el tipo de archivo que pesa
+git lfs push --all origin main
+git add .
+git commit -m "mensaje"
+git push -u origin main
